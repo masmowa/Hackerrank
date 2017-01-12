@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\bin\Debug\Day18-QueuesAndStacks.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\bin\Debug\Day18-QueuesAndStacks.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\bin\Debug\Day18-QueuesAndStacks.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\obj\Debug\Day18-QueuesAndStacks.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\obj\Debug\Day18-QueuesAndStacks.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\obj\Debug\Day18-QueuesAndStacks.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day18-QueuesAndStacks\Day18-QueuesAndStacks\bin\Debug\input1.txt

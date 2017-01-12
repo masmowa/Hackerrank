@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\bin\Debug\Day4-Class-vs-Instance.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\obj\Debug\Day4-Class-vs-Instance.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\bin\Debug\Day4-Class-vs-Instance.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\bin\Debug\Day4-Class-vs-Instance.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\obj\Debug\Day4-Class-vs-Instance.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-Class-vs-Instance\Day4-Class-vs-Instance\obj\Debug\Day4-Class-vs-Instance.pdb

@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\bin\Debug\HyperStrings.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\obj\Debug\HyperStrings.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\bin\Debug\HyperStrings.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\bin\Debug\HyperStrings.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\obj\Debug\HyperStrings.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\HyperStrings\HyperStrings\obj\Debug\HyperStrings.pdb

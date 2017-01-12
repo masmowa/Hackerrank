@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\bin\Debug\FunnyString.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\bin\Debug\FunnyString.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\bin\Debug\FunnyString.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\obj\Debug\FunnyString.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\obj\Debug\FunnyString.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\FunnyString\FunnyString\obj\Debug\FunnyString.pdb

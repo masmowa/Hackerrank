@@ -1,0 +1,11 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\MarsExplorerSOS.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\input3.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\MarsExplorerSOS.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\MarsExplorerSOS.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\obj\Debug\MarsExplorerSOS.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\obj\Debug\MarsExplorerSOS.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\obj\Debug\MarsExplorerSOS.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\input2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\MarsExplorerSOS\MarsExplorerSOS\bin\Debug\input4.txt

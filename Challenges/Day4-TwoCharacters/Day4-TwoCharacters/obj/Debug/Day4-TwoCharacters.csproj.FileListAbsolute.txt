@@ -1,0 +1,10 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\Day4-TwoCharacters.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\Day4-TwoCharacters.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\Day4-TwoCharacters.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\obj\Debug\Day4-TwoCharacters.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\obj\Debug\Day4-TwoCharacters.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\obj\Debug\Day4-TwoCharacters.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\i1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\i2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-TwoCharacters\Day4-TwoCharacters\bin\Debug\i3.txt

@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\bin\Debug\Day14-ScopeMaxDiff.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\bin\Debug\Day14-ScopeMaxDiff.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\bin\Debug\Day14-ScopeMaxDiff.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\obj\Debug\Day14-ScopeMaxDiff.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\obj\Debug\Day14-ScopeMaxDiff.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day14-ScopeMaxDiff\obj\Debug\Day14-ScopeMaxDiff.pdb

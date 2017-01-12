@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\bin\Debug\FactorialBI.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\bin\Debug\FactorialBI.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\bin\Debug\FactorialBI.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\obj\Debug\FactorialBI.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\obj\Debug\FactorialBI.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\obj\Debug\FactorialBI.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\FactorialBI\FactorialBI\bin\Debug\input.txt

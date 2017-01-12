@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\bin\Debug\ScoreCardCombination.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\bin\Debug\ScoreCardCombination.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\bin\Debug\ScoreCardCombination.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\obj\Debug\ScoreCardCombination.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\obj\Debug\ScoreCardCombination.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\ScoreCardCombination\ScoreCardCombination\obj\Debug\ScoreCardCombination.pdb

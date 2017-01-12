@@ -1,0 +1,9 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\inpu2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.pdb

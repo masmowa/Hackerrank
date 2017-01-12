@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\bin\Debug\Day19-Interfaces.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\bin\Debug\Day19-Interfaces.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\bin\Debug\Day19-Interfaces.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\obj\Debug\Day19-Interfaces.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\obj\Debug\Day19-Interfaces.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\obj\Debug\Day19-Interfaces.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day19-Interfaces\Day19-Interfaces\bin\Debug\input1.txt

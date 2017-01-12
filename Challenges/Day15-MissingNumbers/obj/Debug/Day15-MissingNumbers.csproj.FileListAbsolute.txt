@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\bin\Debug\Day15-MissingNumbers.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\bin\Debug\Day15-MissingNumbers.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\bin\Debug\Day15-MissingNumbers.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\obj\Debug\Day15-MissingNumbers.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\obj\Debug\Day15-MissingNumbers.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day15-MissingNumbers\obj\Debug\Day15-MissingNumbers.pdb

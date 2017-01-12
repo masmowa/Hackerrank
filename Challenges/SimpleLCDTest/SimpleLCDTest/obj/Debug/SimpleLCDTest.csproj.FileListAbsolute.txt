@@ -1,0 +1,6 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\bin\Debug\SimpleLCDTest.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\bin\Debug\SimpleLCDTest.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\bin\Debug\SimpleLCDTest.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\obj\Debug\SimpleLCDTest.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\obj\Debug\SimpleLCDTest.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\SimpleLCDTest\SimpleLCDTest\obj\Debug\SimpleLCDTest.pdb

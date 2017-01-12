@@ -1,0 +1,6 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\bin\Debug\LoopIndexString.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\bin\Debug\LoopIndexString.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\bin\Debug\LoopIndexString.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\obj\Debug\LoopIndexString.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\obj\Debug\LoopIndexString.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Review\LoopIndexString\LoopIndexString\obj\Debug\LoopIndexString.pdb

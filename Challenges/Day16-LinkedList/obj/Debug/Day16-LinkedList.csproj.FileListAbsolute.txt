@@ -1,0 +1,6 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\bin\Debug\Day16-LinkedList.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\bin\Debug\Day16-LinkedList.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\bin\Debug\Day16-LinkedList.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\obj\Debug\Day16-LinkedList.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\obj\Debug\Day16-LinkedList.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-LinkedList\bin\Debug\input.txt

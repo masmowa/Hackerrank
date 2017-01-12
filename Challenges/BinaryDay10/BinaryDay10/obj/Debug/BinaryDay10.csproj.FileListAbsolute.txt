@@ -1,0 +1,15 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\BinaryDay10.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\BinaryDay10.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\BinaryDay10.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\obj\Debug\BinaryDay10.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\obj\Debug\BinaryDay10.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input3.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input4.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input5.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input6.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input7.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input8.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BinaryDay10\BinaryDay10\bin\Debug\input9.txt

@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\bin\Debug\Day17-MoreExceptions-CalcPower.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\bin\Debug\Day17-MoreExceptions-CalcPower.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\bin\Debug\Day17-MoreExceptions-CalcPower.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\obj\Debug\Day17-MoreExceptions-CalcPower.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\obj\Debug\Day17-MoreExceptions-CalcPower.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day17-MoreExceptions-CalcPower\Day17-MoreExceptions-CalcPower\obj\Debug\Day17-MoreExceptions-CalcPower.pdb

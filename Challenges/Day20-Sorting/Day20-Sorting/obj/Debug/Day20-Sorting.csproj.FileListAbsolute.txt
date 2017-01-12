@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\bin\Debug\Day20-Sorting.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\obj\Debug\Day20-Sorting.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\bin\Debug\Day20-Sorting.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\bin\Debug\Day20-Sorting.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\obj\Debug\Day20-Sorting.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day20-Sorting\Day20-Sorting\obj\Debug\Day20-Sorting.pdb

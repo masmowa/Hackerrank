@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\bin\Debug\OeratTotalMealCost.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\bin\Debug\OeratTotalMealCost.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\bin\Debug\OeratTotalMealCost.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\obj\Debug\OeratTotalMealCost.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\obj\Debug\OeratTotalMealCost.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\obj\Debug\OeratTotalMealCost.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\OeratTotalMealCost\OeratTotalMealCost\bin\Debug\input.txt

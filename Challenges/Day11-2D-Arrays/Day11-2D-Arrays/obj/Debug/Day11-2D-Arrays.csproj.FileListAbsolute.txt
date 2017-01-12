@@ -1,0 +1,11 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\Day11-2D-Arrays.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\Day11-2D-Arrays.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\Day11-2D-Arrays.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\obj\Debug\Day11-2D-Arrays.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\obj\Debug\Day11-2D-Arrays.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\input-9.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\inputp9.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\bin\Debug\inputpm9.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day11-2D-Arrays\Day11-2D-Arrays\obj\Debug\Day11-2D-Arrays.csprojResolveAssemblyReference.cache

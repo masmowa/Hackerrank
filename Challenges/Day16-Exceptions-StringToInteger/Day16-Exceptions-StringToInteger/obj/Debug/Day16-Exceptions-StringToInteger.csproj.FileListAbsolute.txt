@@ -1,0 +1,12 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\Day16-Exceptions-StringToInteger.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input0.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\Day16-Exceptions-StringToInteger.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\Day16-Exceptions-StringToInteger.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\obj\Debug\Day16-Exceptions-StringToInteger.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\obj\Debug\Day16-Exceptions-StringToInteger.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\obj\Debug\Day16-Exceptions-StringToInteger.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input3.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input4.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day16-Exceptions-StringToInteger\Day16-Exceptions-StringToInteger\bin\Debug\input5.txt

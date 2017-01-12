@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\bin\Debug\day1DataTypes.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\bin\Debug\day1DataTypes.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\bin\Debug\day1DataTypes.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\obj\Debug\day1DataTypes.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\obj\Debug\day1DataTypes.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\obj\Debug\day1DataTypes.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\day1DataTypes\day1DataTypes\bin\Debug\input.txt

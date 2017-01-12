@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\bin\Debug\Day26-NestedLogic.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\bin\Debug\Day26-NestedLogic.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\bin\Debug\Day26-NestedLogic.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\obj\Debug\Day26-NestedLogic.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\obj\Debug\Day26-NestedLogic.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day26-NestedLogic\Day26-NestedLogic\obj\Debug\Day26-NestedLogic.pdb

@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\bin\Debug\Day12-InheritancePersonStudent.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\bin\Debug\Day12-InheritancePersonStudent.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\bin\Debug\Day12-InheritancePersonStudent.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\obj\Debug\Day12-InheritancePersonStudent.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\obj\Debug\Day12-InheritancePersonStudent.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day12-InheritancePersonStudent\Day12-InheritancePersonStudent\obj\Debug\Day12-InheritancePersonStudent.pdb

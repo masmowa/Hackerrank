@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\bin\Debug\Day4-CamelCase.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\bin\Debug\Day4-CamelCase.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\bin\Debug\Day4-CamelCase.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\obj\Debug\Day4-CamelCase.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\obj\Debug\Day4-CamelCase.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day4-CamelCase\Day4-CamelCase\obj\Debug\Day4-CamelCase.pdb

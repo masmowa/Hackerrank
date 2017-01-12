@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\bin\Debug\30docNo2-count-div-by-digit.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\bin\Debug\30docNo2-count-div-by-digit.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\bin\Debug\30docNo2-count-div-by-digit.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\obj\Debug\30docNo2-count-div-by-digit.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\obj\Debug\30docNo2-count-div-by-digit.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\30docNo2-count-div-by-digit\30docNo2-count-div-by-digit\obj\Debug\30docNo2-count-div-by-digit.pdb

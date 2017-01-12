@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\bin\Debug\Gemstones.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\bin\Debug\Gemstones.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\bin\Debug\Gemstones.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\obj\Debug\Gemstones.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\obj\Debug\Gemstones.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\obj\Debug\Gemstones.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\Gemstones\Gemstones\bin\Debug\input0.txt

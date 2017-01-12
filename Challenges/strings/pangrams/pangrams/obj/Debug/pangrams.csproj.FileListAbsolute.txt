@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\bin\Debug\pangrams.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\obj\Debug\pangrams.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\bin\Debug\input2.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\bin\Debug\pangrams.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\bin\Debug\pangrams.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\obj\Debug\pangrams.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\strings\pangrams\pangrams\obj\Debug\pangrams.pdb

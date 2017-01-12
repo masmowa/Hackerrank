@@ -32,7 +32,7 @@ namespace Day27_GenTestInput
         public static List<int> RequiredDirectionLimits = new List<int>() { -1, 0, 1 };
         public static List<bool> ClassCanceledOutput = new List<bool>() { true, false, true, false, true };
         public static int LastTestCase = 0;
-        TestCase(int arivalTimeLimit = 20)
+        public TestCase(int arivalTimeLimit = 20)
         { }
         public static int GetStudentCount()
         {
@@ -243,8 +243,8 @@ namespace Day27_GenTestInput
             {
                 int students = rnd.Next(3, MAX_STUDENTS);
                 int cancelationThreshold = rnd.Next(1, students + 1);
-                TestCase tc = new TestCase(students, cancelationThreshold, cancelExpected);
-                List<int> arrivals = tc.MakeTestCase();
+                TestCase tc = new TestCase();
+                List<int> arrivals = tc.MakeTestCase(students, cancelationThreshold, cancelExpected);
                 // print the N, k values (number-of-students) (cancel-threshold)
                 Console.WriteLine("{0:d} {1:d}", students, cancelationThreshold);
                 // print arrival times for this test-case

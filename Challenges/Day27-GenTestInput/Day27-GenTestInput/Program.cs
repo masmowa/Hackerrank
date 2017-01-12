@@ -15,7 +15,7 @@ namespace Day27_GenTestInput
         public static int MAX_STUDENTS = 200;
 #else
         public static int ARRIVAL_TIME_LIMIT = 21;
-        public static int MAX_STUDENTS = 21;
+        public static int MAX_STUDENTS = 11;
 #endif
 #if DEBUG
         public static bool IsDebug = true;
@@ -49,9 +49,9 @@ namespace Day27_GenTestInput
 
             if (IsDebug)
             {
-                Console.WriteLine("students = [{0:d}] threshold = {1:d}", studentCount, cancelThreshold);
+                Console.WriteLine("students = [{0:d}] threshold = {1:d} canceled = {2}", studentCount, cancelThreshold, classCanceled.ToString());
             }
-            for (int i = 0; i < cancelThreshold; i++)
+            for (int i = 0; i < RequiredDirectionLimits.Count(); i++)
             {
                 arrivalTime = r.Next(1, ARRIVAL_TIME_LIMIT);
                 switch ((ArrivalDirection)i)
@@ -86,14 +86,14 @@ namespace Day27_GenTestInput
             {
                 direction = -1;
             }
-            int remaining = studentCount - cancelThreshold;
-            for (int i=0; i <= remaining; i++)
+            int remaining = studentCount - RequiredDirectionLimits.Count();
+            for (int i=0; i < remaining; i++)
             {
                 arrivalTime = r.Next(1, ARRIVAL_TIME_LIMIT);
                 arrivalTime *= direction;
                 if (IsDebug)
                 {
-                    Console.WriteLine("\tA[{0:d}] = {1:d}", (cancelThreshold +i), arrivalTime);
+                    Console.WriteLine("\tA[{0:d}] = {1:d}", (RequiredDirectionLimits.Count() + i), arrivalTime);
                 }
                 testcase.Add(arrivalTime);
 
@@ -104,83 +104,6 @@ namespace Day27_GenTestInput
     }
     class Solution
     { 
-        /// <summary>
-        /// fill in student array with arrival time to satisfy the criteria
-        /// </summary>
-        /// <param name="caseID">optional</param>
-        /// <param name="classCanceled">boolean to specify if the data should satisfy class canceled criteria
-        /// criteria are students arrive after class starts >= cancel threshold</param>
-        /// <param name="studentCount">number of items in the list</param>
-        /// <param name="cancelThreshold">number of students that must have arrival time <= 0</param>
-        /// <returns>array/List of arrival times</returns>
-        static public List<int> MakeTestCase(int caseID, bool classCanceled, int studentCount, int cancelThreshold)
-        {
-            // prime array with 3 values that match the criteria
-#if BASED_ON_INSTRUCTIONS
-            const int ARRIVAL_TIME_LIMIT = 1001;
-#else
-            const int ARRIVAL_TIME_LIMIT = 21;
-#endif
-            List<int> requiredDirectionLimits = new List<int>() { -1, 0, 1 };
-            List<bool> classCanceledOutput = new List<bool>() { true, false, true, false, true };
-
-            List<int> studentArrivalTime = new List<int>();
-            Random rnd = new Random();
-            int earlyCount = 0;
-            int onTimeCount = 0;
-            int lateCount = 0;
-            int studentsReady = 0;
-
-            if (classCanceled)
-            {
-                while (true)
-                {
-                    // generate K (cancelThreshole) or more value
-                    for (int i = 0; i < studentCount; ++i)
-                    {
-                        int arrivalTime = rnd.Next(ARRIVAL_TIME_LIMIT);
-                        int directionIndex = rnd.Next(0, 3);
-                        // note lateCount must be >= cancelThreshold
-                        // or onTimeCount < cancelThreshold
-                        int actualArrivalTime = (arrivalTime * requiredDirectionLimits[directionIndex]);
-
-                        // categorize arrival time
-                        earlyCount += (actualArrivalTime < 0) ? 1 : 0;
-                        onTimeCount += (actualArrivalTime == 0) ? 1 : 0;
-                        lateCount += (actualArrivalTime > 0) ? 1 : 0;
-                        // again
-                        int studentNotLate = (actualArrivalTime <= 0) ? 1 : 0;
-                        // fixup?
-                        if ((earlyCount + onTimeCount + studentNotLate) < cancelThreshold && earlyCount > 0 && onTimeCount > 0)
-                        {
-                            // adjust actual arrival time to ensure that enough students arrive late.
-                            // flip direction if necessary
-                            actualArrivalTime *= (actualArrivalTime > 0) ? 1 : -1;
-                            // force student to arrive late
-                            actualArrivalTime += (actualArrivalTime == 0) ? 1 : 0;
-                        }
-                        studentArrivalTime.Add(actualArrivalTime);
-
-                    }
-                    studentsReady = earlyCount + onTimeCount;
-                    if (studentsReady < cancelThreshold)
-                    {
-                        // class will now be canceled
-                        break;
-                    }
-                    else
-                    {
-                        // need to fix
-                    }
-                }
-            }
-            else
-            {
-                // require early count + on-time count must be >= cancelThreshold
-            }
-            return studentArrivalTime;
-        
-        }
         /// <summary>
         /// goal: print 11 lines that can be read by the professor chalange as valid input
         ///  Your test case must result in the following output when fed as input to the Professor challenge's solution:
@@ -227,7 +150,7 @@ namespace Day27_GenTestInput
 #if BASED_ON_INSTRUCTIONS
             const int MAX_STUDENTS = 200;
 #else
-            const int MAX_STUDENTS = 20;
+            const int MAX_STUDENTS = 11;
 #endif
             // t <= 5 
             // but since there is a requirement that 
@@ -242,8 +165,16 @@ namespace Day27_GenTestInput
             foreach (bool cancelExpected in classCanceledOutput)
             {
                 int students = rnd.Next(3, MAX_STUDENTS);
-                int cancelationThreshold = rnd.Next(1, students + 1);
+                int minLate = 2;
+                int cancelationThreshold = rnd.Next(minLate, students - 1);
+                // debugging issue when students  = 3 && cancelExpected == true; need minimum 4 as long as cancel threshold == 1
+                //               students = 3; cancelationThreshold = 1;
                 TestCase tc = new TestCase();
+                if (cancelExpected && (students - cancelationThreshold) <= 2)
+                {
+                    // need to have at least 2 more students than the original 2 who arrive on or before start time
+                    students += 2;
+                }
                 List<int> arrivals = tc.MakeTestCase(students, cancelationThreshold, cancelExpected);
                 // print the N, k values (number-of-students) (cancel-threshold)
                 Console.WriteLine("{0:d} {1:d}", students, cancelationThreshold);

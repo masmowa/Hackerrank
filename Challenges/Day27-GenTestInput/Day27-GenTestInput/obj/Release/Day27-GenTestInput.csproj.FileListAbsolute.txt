@@ -1,0 +1,5 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day27-GenTestInput\Day27-GenTestInput\bin\Release\Day27-GenTestInput.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day27-GenTestInput\Day27-GenTestInput\bin\Release\Day27-GenTestInput.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day27-GenTestInput\Day27-GenTestInput\bin\Release\Day27-GenTestInput.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day27-GenTestInput\Day27-GenTestInput\obj\Release\Day27-GenTestInput.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day27-GenTestInput\Day27-GenTestInput\obj\Release\Day27-GenTestInput.pdb

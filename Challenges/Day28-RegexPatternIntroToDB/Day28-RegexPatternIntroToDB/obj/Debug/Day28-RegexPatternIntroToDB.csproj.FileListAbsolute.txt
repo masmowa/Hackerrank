@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Debug\Day28-RegexPatternIntroToDB.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Debug\Day28-RegexPatternIntroToDB.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Debug\Day28-RegexPatternIntroToDB.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\obj\Debug\Day28-RegexPatternIntroToDB.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\obj\Debug\Day28-RegexPatternIntroToDB.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\obj\Debug\Day28-RegexPatternIntroToDB.pdb

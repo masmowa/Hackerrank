@@ -1,0 +1,6 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Release\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Release\Day28-RegexPatternIntroToDB.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Release\Day28-RegexPatternIntroToDB.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\bin\Release\Day28-RegexPatternIntroToDB.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\obj\Release\Day28-RegexPatternIntroToDB.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day28-RegexPatternIntroToDB\Day28-RegexPatternIntroToDB\obj\Release\Day28-RegexPatternIntroToDB.pdb

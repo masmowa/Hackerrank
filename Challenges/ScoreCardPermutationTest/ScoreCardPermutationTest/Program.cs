@@ -12,6 +12,44 @@ namespace ScoreCardPermutationTest
 {
     public class PermutationsZiezi
     {
+#if DEBUG
+        public static bool IsDebug = true;
+#else
+        public static bool IsDebug = false;
+#endif
+        //-----------------------------------------------------------------------------
+        /*
+            Method: PrintArray()
+        */
+        // NOTE: In .NET 4.0 use:
+        // Console.WriteLine(string.Join(" ", arr));
+        //
+        private static void PrintArray(int[] arr, string label = "")
+        {
+            Console.WriteLine(label);
+            Console.Write("{");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i]);
+                if (i < arr.Length - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
+            Console.WriteLine("}");
+        }
+        //-----------------------------------------------------------------------------
+
+        /*
+            Method: swap(ref int a, ref int b)
+
+        */
+        private static void swap(ref int a, ref int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+        }
         //-----------------------------------------------------------------------------
         /* Method: FindPermutations(n) */
         private static void FindPermutations(int n)
@@ -100,11 +138,18 @@ namespace ScoreCardPermutationTest
     }
     class Program
     {
+#if DEBUG
+        public static bool IsDebug = true;
+#else
+        public static bool IsDebug = false;
+#endif
         //-----------------------------------------------------------------------------
         /*
             Method: PrintArray()
-
         */
+        // NOTE: In .NET 4.0 use:
+        // Console.WriteLine(string.Join(" ", arr));
+        //
         private static void PrintArray(int[] arr, string label = "")
         {
             Console.WriteLine(label);

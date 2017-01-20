@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\bin\Debug\Sherlock-Array.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\bin\Debug\Sherlock-Array.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\bin\Debug\Sherlock-Array.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\obj\Debug\Sherlock-Array.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\obj\Debug\Sherlock-Array.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-Array\Sherlock-Array\obj\Debug\Sherlock-Array.pdb

@@ -1,0 +1,6 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\bin\Debug\TestPermutationFinder.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\obj\Debug\TestPermutationFinder.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\bin\Debug\TestPermutationFinder.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\bin\Debug\TestPermutationFinder.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\obj\Debug\TestPermutationFinder.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\TestPermutationFinder\TestPermutationFinder\obj\Debug\TestPermutationFinder.pdb

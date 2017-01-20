@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\bin\Debug\Day29-BitwiseAnd.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\obj\Debug\Day29-BitwiseAnd.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\bin\Debug\input1.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\bin\Debug\Day29-BitwiseAnd.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\bin\Debug\Day29-BitwiseAnd.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\obj\Debug\Day29-BitwiseAnd.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Day29-BitwiseAnd\Day29-BitwiseAnd\obj\Debug\Day29-BitwiseAnd.pdb

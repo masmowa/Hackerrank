@@ -1,0 +1,43 @@
+problem:
+
+Watson gives Sherlock an array A of length N. Then he asks him to 
+determine if there exists an element in the array such that the sum of 
+the elements on its left is equal to the sum of the elements on its 
+right. If there are no elements to the left/right, then the sum is 
+considered to be zero. Formally, find an i, such that, A[1] + A[2] + ... 
++ A[i-1] = A[i+1]+ A[i+2] +...+ A[N]. 
+
+Input Format
+
+The first line contains T, the number of test cases. For each test case, 
+the first line contains N, the number of elements in the array A. The 
+second line for each test case contains N space-separated integers, 
+denoting the array A. 
+
+constraints
+1 <= T <= 10
+1 <= N <= 10^3
+1 <= A[i] <= 2 * 10^4
+1 <= i <= N
+
+output-format
+For each test case print YES if there exists an element in the array, 
+such that the sum of the elements on its left is equal to the sum of the 
+elements on its right; otherwise print NO. 
+
+Sample Input
+
+2
+3
+1 2 3
+4
+1 2 3 3
+
+Sample Output
+
+NO
+YES
+Explanation
+
+For the first test case, no such index exists. 
+For the second test case, A[0] + A[1] = A[3], therefore index 2 satisfies the given conditions.

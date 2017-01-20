@@ -7,6 +7,18 @@ using System.Threading.Tasks;
 /// <summary>
 /// https://www.hackerrank.com/challenges/count-scorecards?h_r=next-challenge&h_v=zen
 /// </summary>
+/// <see cref="https://www.hackerrank.com/challenges/count-scorecards"/>
+/// <seealso cref="http://stackoverflow.com/questions/25824376/combinations-with-repetitions-c-sharp"/>
+/// <seealso cref="https://en.wikipedia.org/wiki/Gray_code"/>
+/// <seealso cref="http://stackoverflow.com/questions/4166106/the-nth-gray-code"/>
+/// <seealso cref="http://mathworld.wolfram.com/GrayCode.html"/>
+/// <seealso cref="https://blogs.msdn.microsoft.com/oldnewthing/20080812-00/?p=21273"/>
+/// <seealso cref="http://stackoverflow.com/questions/11208446/generating-permutations-of-a-set-most-efficiently"/>
+/// <seealso cref="http://stackoverflow.com/questions/4635041/permutation-of-array-items"/>
+/// <seealso cref="http://stackoverflow.com/questions/756055/listing-all-permutations-of-a-string-integer?rq=1"/>
+/// <seealso cref="http://stackoverflow.com/questions/3844721/algorithm-to-generate-all-permutation-by-selecting-some-or-all-charaters?rq=1"/>
+/// <seealso cref="http://stackoverflow.com/questions/4740760/permutations-with-some-fixed-numbers?noredirect=1&lq=1"/>
+/// 
 namespace ScoreCardCombination
 {
     public class Player
@@ -15,6 +27,8 @@ namespace ScoreCardCombination
         public int Score { get; protected set; }
         public int Games { get; protected set; }
         public int[] Scores { get; protected set; }
+        public int[] ScorePattern { get; protected set; }
+        public Dictionary<int, int> FixedScores { get; protected set; }
 
         public Player(int id, int score, int games)
         {
@@ -117,10 +131,10 @@ namespace ScoreCardCombination
             }
             return (gamesPlayed / k);
         }
-        static int WinsReported(int[] scores)
+        static int WinsReported(int[] scorePattern)
         {
             int reported = 0;
-            foreach (int s in scores)
+            foreach (int s in scorePattern)
             {
                 reported += (s < 0) ? 0 : s;
             }
@@ -153,9 +167,9 @@ namespace ScoreCardCombination
 
                 // line of score-counts
                 string scores = Console.ReadLine().Trim();
-                int[] scorecard = scores.Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
+                int[] scorecardPattern = scores.Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
                 int gp = GamesPlayed(N, 2);
-                int gwr = WinsReported(scorecard);
+                int gwr = WinsReported(scorecardPattern);
                 if (IsDebug)
                 {
                     Console.WriteLine("N: {0:d}", N);

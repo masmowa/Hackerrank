@@ -1,0 +1,8 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\Sherlock-PermutationsOnes.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\Sherlock-PermutationsOnes.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\Sherlock-PermutationsOnes.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\input0.txt

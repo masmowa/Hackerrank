@@ -20,7 +20,6 @@ namespace Sherlock_Array
             {
                 int N = Convert.ToInt32(Console.ReadLine());
                 int[] A = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
-#if true
                 if (testEqual(N, A))
                 {
                     Console.WriteLine("YES");
@@ -30,74 +29,11 @@ namespace Sherlock_Array
                     Console.WriteLine("NO");
                 }
 
-#else
-                if (N == 1)
-                {
-                    Console.WriteLine("YES");
-                    continue;
-                }
-                else if (N <= 3)
-                {
-                    Console.WriteLine("NO");
-                    continue;
-                }
-                int j = N - 1;
-                int prevj = N;
-                int i = 0;
-                int previ = 0;
-                int losum = A[i++];
-                int hisum = A[j--];
-                while (i < j)
-                {
-                    if (IsDebug)
-                    {
-                        Console.WriteLine("i: {0:d} : losum = {1:d} j: {2:d} : hisum = {3:d}", i, losum, j, hisum);
-                    }
-                    while (losum < hisum)
-                    {
-                        losum += A[i];
-                        previ = i;
-                        i++;
-                    }
-                    if (losum == hisum && i == j)
-                    {
-                        Console.WriteLine("YES");
-                        break;
-                    }
-                    else if (losum != hisum && i == j)
-                    {
-                        Console.WriteLine("NO");
-                        break;
-                    }
-                    else if (losum > hisum && i < j - 1)
-                    {
-                        while (losum > hisum && i < j)
-                        {
-                            hisum += A[j];
-                            prevj = j;
-                            j--;
-                        }
-                        if (losum == hisum && i == j)
-                        {
-                            Console.WriteLine("YES");
-                            break;
-                        }
-                    }
-
-                }
-#endif
             }
             //if (IsDebug)
             //{
             //    Console.ReadLine();
             //}
-        }
-        static bool CheckValues(int v1, int v2) { return v1 == v2; }
-        static bool checkIndexValues(int i, int j)
-        {
-            int nexti = i + 1;
-            int nextj = j - 1;
-            return (nexti == nextj);
         }
         static bool testEqual(int N, int[] A)
         {
@@ -107,8 +43,35 @@ namespace Sherlock_Array
             bool found = false;
             for (int i = 0; i < N; ++i)
             {
-                sum += A[i];
+                rsum += A[i];
             }
+#if true
+            if (IsDebug)
+            {
+                Console.WriteLine("rsum = {0:d} lsum = {1:d}", rsum, lsum);
+            }
+            rsum -= A[0];
+            if (IsDebug)
+            {
+                Console.WriteLine("rsum = {0:d} lsum = {1:d}", rsum, lsum);
+            }
+            found = (rsum == lsum);
+
+            for (int i=1; i< N; ++i)
+            {
+                lsum += A[i - 1];
+                rsum -= A[i];
+                if (IsDebug)
+                {
+                    Console.WriteLine("rsum = {0:d} lsum = {1:d}", rsum, lsum);
+                }
+                if (rsum == lsum)
+                {
+                    found = true;
+                    break;
+                }
+            }
+#else
             rsum = sum;
             for (int i=0; i < N; i++)
             {
@@ -121,6 +84,7 @@ namespace Sherlock_Array
                 }
 
             }
+#endif
             return found;
         }
     }

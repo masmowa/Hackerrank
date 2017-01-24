@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mutual_recurrences
+namespace FibonacciFinding
 {
-    class solution
+    class Solution
     {
         static void CheckValidInput(ulong min, ulong max, ulong val, string name)
         {
@@ -26,7 +26,7 @@ namespace mutual_recurrences
         {
             const int MIN_INPUT = 1;
             const ulong MAX_CASES = 1000;
-            const ulong MAX_XY = (ulong)(1000000000000000000);
+            const ulong MAX_BONVAL = (ulong)(1000000000000000000);
             //const ulong PROBLEM_LIMIT = 1000000000000000000;
 
             uint remainder = uint.MaxValue;
@@ -38,12 +38,13 @@ namespace mutual_recurrences
             CheckValidInput(MIN_INPUT, MAX_CASES, testcases, "Testcases");
             for (ulong i = 0; i < testcases; i++)
             {
-                uint[] XY = Console.ReadLine().Split(' ').Select(x => Convert.ToUInt32(x)).ToArray();
-                CheckValidInput(1, 4, (ulong)XY.Length, "INPUT COUNT");
-                foreach (ulong v in XY)
+                uint[] FibValues = Console.ReadLine().Split(' ').Select(x => Convert.ToUInt32(x)).ToArray();
+                CheckValidInput(MIN_INPUT, MAX_BONVAL, (uint)FibValues.Length, "INPUT COUNT");
+                foreach (ulong v in FibValues)
                 {
-                    CheckValidInput(1, MAX_XY, v, "coord");
+                    CheckValidInput(MIN_INPUT, MAX_BONVAL, v, "Bonacci value");
                 }
+
             }
         }
     }

@@ -6,3 +6,4 @@ D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\nCrTable\nCrTable\bin\Debug
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\nCrTable\nCrTable\obj\Debug\nCrTable.exe
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\nCrTable\nCrTable\obj\Debug\nCrTable.pdb
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\nCrTable\nCrTable\bin\Debug\tc4.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\nCrTable\nCrTable\bin\Debug\tc4a.txt

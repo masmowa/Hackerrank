@@ -1,0 +1,7 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\bin\Debug\BearAndSteadyGene.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\obj\Debug\BearAndSteadyGene.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\bin\Debug\input.txt
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\bin\Debug\BearAndSteadyGene.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\bin\Debug\BearAndSteadyGene.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\obj\Debug\BearAndSteadyGene.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\BearAndSteadyGene\BearAndSteadyGene\obj\Debug\BearAndSteadyGene.pdb

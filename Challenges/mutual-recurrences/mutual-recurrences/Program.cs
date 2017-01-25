@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace mutual_recurrences
 {
+    /// <summary>
+    /// Mutual Recurrences
+    /// </summary>
+    /// <see cref="https://www.hackerrank.com/challenges/mutual-recurrences?h_r=next-challenge&h_v=zen"/> 
     class solution
     {
         static void CheckValidInput(ulong min, ulong max, ulong val, string name)

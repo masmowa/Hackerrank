@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 /// <summary>
 /// Fibonacci Finding
@@ -43,10 +44,12 @@ namespace FibonacciFinding
     /// <seealso cref="https://ronzii.wordpress.com/2011/07/09/using-matrix-exponentiation-to-calculated-nth-fibonacci-number/"/>
     /// <seealso cref="https://en.wikipedia.org/wiki/Exponentiation_by_squaring"/>
     /// <seealso cref="http://www.ams.org/journals/mcom/1987-48-177/S0025-5718-1987-0866113-7/S0025-5718-1987-0866113-7.pdf"/>
+    /// <seealso cref="https://www.dotnetperls.com/fibonacci"/>
+    /// <seealso cref="http://rosettacode.org/wiki/Fibonacci_n-step_number_sequences#C.23"/>
     public class FastBonacci : ProblemConstants
     {
         private static int[] G = new int[] { 1, 1, 1, 0 };
-        private static long[,] H = new long[,] { 
+        private static long[,] H = new long[,] {
             { 1, 1 },   // row 0
             { 1, 0 }    // ROW 1
         };
@@ -109,7 +112,7 @@ namespace FibonacciFinding
          * [1 1]^n   [F(n+1) F(n)  ]
          * [1 0]   = [F(n)   F(n-1)].
          */
-         public long FastFibonacciMatrix(long n)
+        public long FastFibonacciMatrix(long n)
         {
             return 0;
         }
@@ -121,7 +124,26 @@ namespace FibonacciFinding
                     i, FibN(i), FibLogN(i));
         }
     }
-    class Solution
+    public class ExpectedResults
+    {
+        public List<ulong> R;
+        protected static string EXPECTED_FILE = "output01.txt";
+        public ExpectedResults(uint t)
+        {
+            string[] expectedLines = File.ReadAllLines(EXPECTED_FILE);
+            R = new List<ulong>(expectedLines.Length);
+            foreach (string s in expectedLines)
+            {
+                R.Add(Convert.ToUInt32(s));
+            }
+
+        }
+        public bool IsMatch(int index, ulong val)
+        {
+            return (R[index] == val);
+        }
+    }
+    class Solution : ProblemConstants
     {
         static void CheckValidInput(ulong min, ulong max, ulong val, string name)
         {
@@ -137,18 +159,51 @@ namespace FibonacciFinding
                 throw new ArgumentOutOfRangeException(string.Format("Argument {0}, val: {1:d} out of range", name, val));
             }
         }
+        static ulong Fib(ulong F0, ulong F1, ulong n)
+        {
+            double sqrt5 = Math.Sqrt(5);
+            double p1 = (1 + sqrt5) / 2;
+            double p2 = -1 * (p1 - 1);
+
+
+            double n1 = Math.Pow(p1, n + 1);
+            double n2 = Math.Pow(p2, n + 1);
+            return (ulong)((n1 - n2) / sqrt5);
+        }
+        static ulong FibIterative(ulong F0, ulong F1, ulong n)
+        {
+
+            for (uint i = 2; i <= n; ++i)
+            {
+                ulong fibval = (F0 + F1) % LIMIT_MOD;
+                if (false && IsDebug.V && ((i % 1001) == 0))
+                {
+                    Console.WriteLine("F0 [{0:d}] F1[{1:d}] F0 + F1 = [{2:d}]", F0, F1, fibval);
+                }
+                if (IsDebug.V && ((n - i) < 3))
+                {
+                    Console.WriteLine("F0 [{0:d}] F1[{1:d}] F0 + F1 = [{2:d}]", F0, F1, fibval);
+                }
+                F0 = F1;
+                F1 = fibval;
+
+            }
+            if (IsDebug.V)
+            {
+                Console.WriteLine("N [{0:d}] [ {1:d} {2:d} ] output = {3:d}", n, F0, F1, F1);
+                Console.WriteLine("]");
+            }
+            Console.WriteLine(F1);
+            return F1;
+        }
+
         static void Main(string[] args)
         {
-            const uint MIN_INPUT = 1;
-            const uint MAX_CASES = 1000;
-            const uint MAX_LINEVAL = 3;
-            const uint LIMIT_MOD = (uint)(1000000007);
-            //const ulong PROBLEM_LIMIT = 1000000000000000000;
-
 
             uint testcases = Convert.ToUInt32(Console.ReadLine());
             List<ulong> fibVals = new List<ulong>();
             CheckValidInput(MIN_INPUT, MAX_CASES, testcases, "Testcases");
+            ExpectedResults xr = new ExpectedResults(1);
             for (uint t = 0; t < testcases; t++)
             {
                 if (IsDebug.V)
@@ -170,28 +225,17 @@ namespace FibonacciFinding
                 //fibVals.Add(InputValues[1]);
                 uint F0 = InputValues[0];
                 uint F1 = InputValues[1];
-                int N = (int)InputValues[2];
-                for (int i = 2; i < N; ++i)
+                uint N = (uint)InputValues[2];
+                ulong fib =  FibIterative(F0, F1, (ulong)N);
+                if (xr.IsMatch((int)t, fib))
                 {
-                    uint fibval = (F0 + F1) % LIMIT_MOD;
-                    if (false && IsDebug.V && ((i % 1001) == 0))
-                    {
-                        Console.WriteLine("F0 [{0:d}] F1[{1:d}] F0 + F1 = [{2:d}]", F0, F1, fibval);
-                    }
-                    if (IsDebug.V && ((N - i) < 3))
-                    {
-                        Console.WriteLine("F0 [{0:d}] F1[{1:d}] F0 + F1 = [{2:d}]", F0, F1, fibval);
-                    }
-                    F0 = F1;
-                    F1 = fibval;
-
+                    Console.WriteLine(" PASS ");
                 }
-                if (IsDebug.V)
+                else
                 {
-                    Console.WriteLine("N [{0:d}] [ {1:d} {2:d} ] output = {3:d}", N, F0, F1, F1);
-                    Console.WriteLine("]");
+                    Console.WriteLine(" FAIL!! ");
+                    break;
                 }
-                Console.WriteLine(F1);
             }
         }
     }

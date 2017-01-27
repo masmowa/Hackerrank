@@ -1,1 +1,6 @@
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\bin\Debug\C23Fibonacci.exe.config
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\obj\Debug\C23Fibonacci.csprojResolveAssemblyReference.cache
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\bin\Debug\C23Fibonacci.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\bin\Debug\C23Fibonacci.pdb
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\obj\Debug\C23Fibonacci.exe
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\C23Fibonacci\C23Fibonacci\obj\Debug\C23Fibonacci.pdb

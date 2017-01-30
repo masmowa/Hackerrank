@@ -13,6 +13,8 @@
 
 # visual studio
 *.user
+*.manifest
+*.cache
 
 # Compiled Dynamic libraries
 *.so
@@ -33,6 +35,10 @@
 *.exe
 *.out
 *.app
+
+#output folders/directories
+**/obj/
+
 /Challenges/ArrayOfChoices/ArrayOfChoices/obj/Debug/ArrayOfChoices.csproj.FileListAbsolute.txt
 /Challenges/ArrayOfChoices/ArrayOfChoices/obj/Debug/ArrayOfChoices.csprojResolveAssemblyReference.cache
 /Challenges/ArrayOfChoices/ArrayOfChoices/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
@@ -44,8 +50,6 @@
 /Challenges/ComboGenTest/ComboGenTest/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
 /Challenges/Sherlock-PermutationsOnes/Sherlock-PermutationsOnes/bin/Debug/Sherlock-PermutationsOnes.exe.config
 /Challenges/Sherlock-PermutationsOnes/Sherlock-PermutationsOnes/bin/Debug/Sherlock-PermutationsOnes.vshost.exe.config
-*.manifest
-*.cache
 /Challenges/Sherlock-PermutationsOnes/Sherlock-PermutationsOnes/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
 /Challenges/Sherlock-PermutationsOnes/Sherlock-PermutationsOnes/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
 /Challenges/Sherlock-PermutationsOnes/Sherlock-PermutationsOnes/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
@@ -77,3 +81,6 @@
 /Challenges/Matrix-Tracing/Matrix-Tracing/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
 /Challenges/Matrix-Tracing/Matrix-Tracing/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
 /Challenges/Matrix-Tracing/Matrix-Tracing/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+/Challenges/Even-Tree/Even-Tree/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+/Challenges/Even-Tree/Even-Tree/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+/Challenges/Even-Tree/Even-Tree/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs

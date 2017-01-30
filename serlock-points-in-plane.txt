@@ -1,11 +1,15 @@
-Watson gives four 3-dimensional points to Sherlock and asks him if they all lie in the same plane. Your task here is to help Sherlock.
+Watson gives four 3-dimensional points to Sherlock and 
+asks him if they all lie in the same plane. 
+Your task here is to help Sherlock.
 
 Input Format 
 First line contains T, the number of testcases. 
-Each test case consists of four lines. Each line contains three integers, denoting xi yi zi.
+Each test case consists of four lines. 
+Each line contains three integers, denoting xi yi zi.
 
 Output Format 
-For each test case, print YES or NO whether all four points lie in same plane or not, respectively.
+For each test case, print YES or NO whether all four 
+points lie in same plane or not, respectively.
 
 Constraints 
 1 ≤ T ≤ 10^4 

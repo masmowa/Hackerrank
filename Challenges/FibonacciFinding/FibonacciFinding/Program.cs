@@ -27,11 +27,11 @@ namespace FibonacciFinding
     }
     public class ProblemConstants
     {
-        public const uint MIN_INPUT = 1;
-        public const uint MAX_CASES = 1000;
-        public const uint MAX_LINEVAL = 3;
-        public const uint LIMIT_MOD = (uint)(1000000007);
-        public const uint MATRIX_RC = 2;
+        public const ulong MIN_INPUT = 1;
+        public const ulong MAX_CASES = 1000;
+        public const ulong MAX_LINEVAL = 3;
+        public const ulong LIMIT_MOD = (ulong)(1000000007);
+        public const ulong MATRIX_RC = 2;
     }
 
     /// <summary>
@@ -128,13 +128,13 @@ namespace FibonacciFinding
     {
         public List<ulong> R;
         protected static string EXPECTED_FILE = "output01.txt";
-        public ExpectedResults(uint t)
+        public ExpectedResults(ulong t)
         {
             string[] expectedLines = File.ReadAllLines(EXPECTED_FILE);
             R = new List<ulong>(expectedLines.Length);
             foreach (string s in expectedLines)
             {
-                R.Add(Convert.ToUInt32(s));
+                R.Add(Convert.ToUInt64(s));
             }
 
         }
@@ -173,7 +173,7 @@ namespace FibonacciFinding
         static ulong FibIterative(ulong F0, ulong F1, ulong n)
         {
 
-            for (uint i = 2; i <= n; ++i)
+            for (ulong i = 2; i <= n; ++i)
             {
                 ulong fibval = (F0 + F1) % LIMIT_MOD;
                 if (false && IsDebug.V && ((i % 1001) == 0))
@@ -200,20 +200,20 @@ namespace FibonacciFinding
         static void Main(string[] args)
         {
 
-            uint testcases = Convert.ToUInt32(Console.ReadLine());
+            ulong testcases = Convert.ToUInt64(Console.ReadLine());
             List<ulong> fibVals = new List<ulong>();
             CheckValidInput(MIN_INPUT, MAX_CASES, testcases, "Testcases");
             ExpectedResults xr = new ExpectedResults(1);
-            for (uint t = 0; t < testcases; t++)
+            for (ulong t = 0; t < testcases; t++)
             {
                 if (IsDebug.V)
                 {
                     Console.WriteLine("Case {0:d} [", t);
                 }
 
-                uint[] InputValues = Console.ReadLine().Split(' ').Select(x => Convert.ToUInt32(x)).ToArray();
-                CheckValidInput(MIN_INPUT, MAX_LINEVAL, (uint)InputValues.Length, "INPUT COUNT");
-                foreach (uint v in InputValues)
+                ulong[] InputValues = Console.ReadLine().Split(' ').Select(x => Convert.ToUInt64(x)).ToArray();
+                CheckValidInput(MIN_INPUT, MAX_LINEVAL, (ulong)InputValues.Length, "INPUT COUNT");
+                foreach (ulong v in InputValues)
                 {
                     CheckValidInput(MIN_INPUT, LIMIT_MOD, v, "Bonacci value");
                 }
@@ -223,9 +223,9 @@ namespace FibonacciFinding
                 }
                 //fibVals.Add(InputValues[0]);
                 //fibVals.Add(InputValues[1]);
-                uint F0 = InputValues[0];
-                uint F1 = InputValues[1];
-                uint N = (uint)InputValues[2];
+                ulong F0 = InputValues[0];
+                ulong F1 = InputValues[1];
+                ulong N = (ulong)InputValues[2];
                 ulong fib =  FibIterative(F0, F1, (ulong)N);
                 if (xr.IsMatch((int)t, fib))
                 {

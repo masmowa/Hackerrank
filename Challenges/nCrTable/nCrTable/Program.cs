@@ -1,4 +1,5 @@
-﻿using System;
+﻿#define CLASSY_VERSION
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -129,7 +130,7 @@ namespace nCrTable
             {
                 ncr.PrintRow(val);
             }
-#endif
+#else
             // UN-CLASSY-VERSION
             long RowLimit = max + 1;
             long[,] NcrTbl = new long[RowLimit, RowLimit];
@@ -165,5 +166,6 @@ namespace nCrTable
 
             }
         }
+#endif
     }
 }

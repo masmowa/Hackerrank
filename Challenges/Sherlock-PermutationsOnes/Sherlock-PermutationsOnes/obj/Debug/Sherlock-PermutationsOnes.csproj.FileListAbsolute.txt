@@ -6,3 +6,6 @@ D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\S
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.exe
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.pdb
 D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\input0.txt
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\bin\Debug\Sherlock-PermutationsOnes.exe.config
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.exe
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sherlock-PermutationsOnes\Sherlock-PermutationsOnes\obj\Debug\Sherlock-PermutationsOnes.pdb

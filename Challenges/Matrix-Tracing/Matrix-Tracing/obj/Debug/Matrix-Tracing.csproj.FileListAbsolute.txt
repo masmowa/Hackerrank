@@ -1,0 +1,11 @@
+D:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\Matrix-Tracing.exe.config
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\Matrix-Tracing.exe.config
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\obj\Debug\Matrix-Tracing.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\input00.txt
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\output00.txt
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\Matrix-Tracing.exe
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\Matrix-Tracing.pdb
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\obj\Debug\Matrix-Tracing.exe
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\obj\Debug\Matrix-Tracing.pdb
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\input01.txt
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Matrix-Tracing\Matrix-Tracing\bin\Debug\output01.txt

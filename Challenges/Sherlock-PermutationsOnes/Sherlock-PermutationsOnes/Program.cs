@@ -112,6 +112,7 @@ namespace Sherlock_PermutationsOnes
             }
         }
 
+        // nCr = n! / (r! * (n -r)!)
         public long choose(long n, long r)
         {
             if (n < r) { return 1; }

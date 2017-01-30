@@ -1,0 +1,8 @@
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\bin\Debug\howto_calculate_n_choose_k.exe
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\bin\Debug\howto_calculate_n_choose_k.pdb
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.Form1.resources
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.Properties.Resources.resources
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.exe
+C:\Users\Mark\Documents\GitHub\Hackerrank\Challenges\Sample\howto_calculate_n_choose_k\howto_calculate_n_choose_k\obj\Debug\howto_calculate_n_choose_k.pdb

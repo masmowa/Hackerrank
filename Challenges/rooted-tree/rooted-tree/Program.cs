@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Even_Tree_Forest
+namespace rooted_tree
 {
     public static class IsDebug
     {
@@ -46,18 +46,10 @@ namespace Even_Tree_Forest
         }
     }
 #endif
-
-    public class NodeData<T>
+    public class Data<T>
     {
         public T Parent { get; set; }
-        public T Val { get; set; }
-        public int Count { get; set; }
-        public NodeData(T parent, T value)
-        {
-            Parent = parent;
-            Val = value;
-
-        }
+        public T Value { get; set; }
     }
     public class Node<T>
     {
@@ -72,6 +64,7 @@ namespace Even_Tree_Forest
             this.data = data;
             this.neighbors = neighbors;
         }
+
 
         public T Value
         {
@@ -119,56 +112,6 @@ namespace Even_Tree_Forest
             return null;
         }
     }
-    public class NTreeNode<T> : Node<T>
-    {
-        public NTreeNode() : base() { }
-        public NTreeNode(T data) : base(data, null) { }
-        public NTreeNode(T data, NTreeNode<T> left, NTreeNode<T> right)
-        {
-            base.Value = data;
-            NodeList<T> children = new NodeList<T>(3);
-            children[0] = left;
-            children[1] = right;
-            
-            base.Neighbors = children;
-        }
-
-        public NTreeNode<T> Left
-        {
-            get
-            {
-                if (base.Neighbors == null)
-                    return null;
-                else
-                    return (NTreeNode<T>)base.Neighbors[0];
-            }
-            set
-            {
-                if (base.Neighbors == null)
-                    base.Neighbors = new NodeList<T>(2);
-
-                base.Neighbors[0] = value;
-            }
-        }
-
-        public NTreeNode<T> Right
-        {
-            get
-            {
-                if (base.Neighbors == null)
-                    return null;
-                else
-                    return (NTreeNode<T>)base.Neighbors[1];
-            }
-            set
-            {
-                if (base.Neighbors == null)
-                    base.Neighbors = new NodeList<T>(3);
-
-                base.Neighbors[1] = value;
-            }
-        }
-    }
 
     class Solution
     {
@@ -177,27 +120,15 @@ namespace Even_Tree_Forest
 #if DEBUG
             ExpectedResults xr = new ExpectedResults(0);
 #endif
-            int[] NM = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
-            int N = NM[0];
-            int M = NM[1];
-            for (int m = 0; m < M; ++m)
+            int[] NER = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
+            int N = NER[0]; // Number of nodes
+            int E = NER[1]; // number of actions (queries) Update + Report
+            int R = NER[2]; // Root (? index?)
+            for (int i = 0; i < N; ++i)
             {
-                int[] edge = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
-                //edges.Add(edge[0], edge[1]);
-                if (IsDebug.V)
-                {
-#if DEBUG
-                    string IsPass = "FAIL";
-                    if (xr.IsMatch(0, count))
-                    {
-                        IsPass = "PASS";
-                    }
-                    Console.WriteLine("expected: {0:d} actual: {1:d} {2}", xr.R[0], count, IsPass);
-#endif
-                }
-#if true
-                Console.Write(count);
-#endif
+                // node numbers connected by edge
+                int[] XY = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
+
             }
         }
     }

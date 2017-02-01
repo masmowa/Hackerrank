@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:highenergy="clr-namespace:HighEnergy.Controls;assembly=HighEnergy.TreeView"
+	xmlns:local="clr-namespace:HighEnergy.TreeView.Demo;assembly=HighEnergy.TreeView.Demo"
+	x:Class="HighEnergy.TreeView.Demo.DemoPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="0" Padding="0">
+			<ContentView BackgroundColor="Navy" HeightRequest="60" Padding="16,0">
+				<Label Text="HighEnergy.TreeView Demo" TextColor="White" Font="Bold, 24" VerticalOptions="Center"/>
+			</ContentView>
+			<ContentView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+				<ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsClippedToBounds="True">
+
+					<local:DemoTreeView x:Name="DemoTreeRoot" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+				
+					<!-- TODO: get this scenario working again -->
+<!--					<highenergy:TreeNodeView BackgroundColor="Blue">
+						<highenergy:TreeNodeView BackgroundColor="Green">
+							<highenergy:TreeNodeView BackgroundColor="Blue" HeightRequest="100"/>
+							<highenergy:TreeNodeView BackgroundColor="Teal"/>
+							<highenergy:TreeNodeView BackgroundColor="Aqua"/>
+						</highenergy:TreeNodeView>
+						<highenergy:TreeNodeView BackgroundColor="Yellow" IsExpanded="False">
+							<highenergy:TreeNodeView BackgroundColor="Gray"/>
+							<highenergy:TreeNodeView BackgroundColor="Black"/>
+							<highenergy:TreeNodeView BackgroundColor="Blue"/>
+						</highenergy:TreeNodeView>
+						<highenergy:TreeNodeView BackgroundColor="Green">
+							<highenergy:TreeNodeView BackgroundColor="Blue"/>
+							<highenergy:TreeNodeView BackgroundColor="Teal"/>
+							<highenergy:TreeNodeView BackgroundColor="Aqua"/>
+						</highenergy:TreeNodeView>
+						<highenergy:TreeNodeView BackgroundColor="Yellow" IsExpanded="False">
+							<highenergy:TreeNodeView BackgroundColor="Gray"/>
+							<highenergy:TreeNodeView BackgroundColor="Black"/>
+							<highenergy:TreeNodeView BackgroundColor="Blue"/>
+						</highenergy:TreeNodeView>
+					</highenergy:TreeNodeView>-->
+				</ScrollView>
+			</ContentView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

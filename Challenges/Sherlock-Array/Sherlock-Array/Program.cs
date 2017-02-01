@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// test if array is symetric around the center value
+/*
+determine if there exists an element in the array such that the sum of 
+the elements on its left is equal to the sum of the elements on its 
+right. If there are no elements to the left/right, then the sum is 
+considered to be zero. Formally, find an i, such that, A[1] + A[2] + ... 
++ A[i-1] = A[i+1]+ A[i+2] +...+ A[N]. 
+*/
 namespace Sherlock_Array
 {
     class Solution
@@ -30,10 +38,6 @@ namespace Sherlock_Array
                 }
 
             }
-            //if (IsDebug)
-            //{
-            //    Console.ReadLine();
-            //}
         }
         static bool testEqual(int N, int[] A)
         {

@@ -40,6 +40,7 @@ namespace Matrix_Tracing
     }
     public class ExpectedResults
     {
+#if DEBUG
         public List<ulong> R;
         protected static string EXPECTED_FILE = "output01.txt";
         public ExpectedResults(ulong t)
@@ -56,6 +57,7 @@ namespace Matrix_Tracing
         {
             return (R[index] == val);
         }
+#endif
     }
 
     /// <summary>
@@ -198,8 +200,9 @@ namespace Matrix_Tracing
             CheckValidInput((int)MIN_INPUT, (int)MAX_CASES, testcases, "test cases");
 
             WordPermutationInMultiset wmc = new WordPermutationInMultiset();
+#if DEBUG
             ExpectedResults xr = new ExpectedResults(1);
-
+#endif
             for (int t = 0; t < testcases; ++t)
             {
                 string items = Console.ReadLine().Trim();
@@ -222,12 +225,14 @@ namespace Matrix_Tracing
                 Console.WriteLine(ans);
                 if (IsDebug.V)
                 {
+#if DEBUG
                     Console.WriteLine("XR: {0:d}; r = {1}", ans, xr.IsMatch(t, ans).ToString());
                     if(!xr.IsMatch(t, ans))
                     {
                         Console.WriteLine("FAIL");
                         break;
                     }
+#endif
                 }
             }
         }

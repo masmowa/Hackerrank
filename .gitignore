@@ -35,9 +35,16 @@
 *.exe
 *.out
 *.app
+# project files
+.*
+!/.gitignore
+
+**/Challenges/**/.suo
 
 #output folders/directories
 **/obj/
+**/bin/
+**/.vs/
 
 /Challenges/ArrayOfChoices/ArrayOfChoices/obj/Debug/ArrayOfChoices.csproj.FileListAbsolute.txt
 /Challenges/ArrayOfChoices/ArrayOfChoices/obj/Debug/ArrayOfChoices.csprojResolveAssemblyReference.cache

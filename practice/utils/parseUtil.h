@@ -11,8 +11,11 @@ std::vector<std::string> split(const std::string &);
 
 std::vector<std::string> tokenize(std::string const &line, char delim);
 std::vector<int> tokenize_to_int(std::string const &line, char delim);
-//void demo_exists(fs::path& p, fs::file_status s = fs::file_status{});
+void demo_exists(efs::path& p, efs::file_status s = efs::file_status{});
 bool read_array_lines(efs::path& p, std::vector<std::string>& result);
+
+std::vector<std::string> split_string(std::string);
+
 
 inline bool Verbose() {
 #if defined(MAS_TEST)
@@ -48,4 +51,9 @@ void print_2d_vector(std::vector < std::vector<T> >const & a2d)
 	{
 		print_vector(*a2d_it);
 	}
+}
+
+inline
+bool get_exists(efs::path& p, efs::file_status s = efs::file_status{}) {
+	return efs::status_known(s) ? efs::exists(s) : efs::exists(p);
 }

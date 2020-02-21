@@ -1,0 +1,50 @@
+Time to read 3 operations (sec) = 0.000237
+data size 5 operation size: 3
+Time to run 3 operations (sec) = 0.000365
+200
+
+Time to read 100000 operations (sec) = 19.7336
+data size 10000000 operation size: 100000
+Time to run 100000 operations (sec) = 18837.1
+2147473274
+
+Time to read 3 operations (sec) = 0.000176
+data size 10 operation size: 3
+Time to run 3 operations (sec) = 0.000321
+10
+
+Time to read 4 operations (sec) = 0.000258
+data size 10 operation size: 4
+Time to run 4 operations (sec) = 0.000675
+24
+
+
+D:\Users\Mark\Documents\GitHub\Hackerrank\practice\ArrayManipulationFindMaxAfterManip\Debug\ArrayManipulationFindMaxAfterManip.exe (process 21544) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
+
+
+Time to read 3 operations (sec) = 0.00017
+data size 5 operation size: 3
+Time to run 3 operations (sec) = 0.000208
+200
+
+Time to read 100000 operations (sec) = 20.1722
+data size 10000000 operation size: 100000
+Time to run 100000 operations (sec) = 5.54553
+2147473274
+
+Time to read 3 operations (sec) = 0.000164
+data size 10 operation size: 3
+Time to run 3 operations (sec) = 0.000273
+10
+
+Time to read 4 operations (sec) = 0.000186
+data size 10 operation size: 4
+Time to run 4 operations (sec) = 0.000247
+31
+
+
+D:\Users\Mark\Documents\GitHub\Hackerrank\practice\ArrayManipulationFindMaxAfterManip\Debug\ArrayManipulationFindMaxAfterManip.exe (process 4560) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

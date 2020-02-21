@@ -91,6 +91,7 @@ int main()
 		string ps = p.path().string();
 		ProcessInput(ps);
 	}
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

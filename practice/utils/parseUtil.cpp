@@ -9,54 +9,75 @@
 #include <sstream>
 
 #include <filesystem>
-//namespace fs = std::filesystem;
+namespace fs = std::filesystem;
 
-#include <experimental/filesystem>
-namespace efs = std::experimental::filesystem;
 #include "parseUtil.h"
 
 using namespace std;
 
 
-std::string ltrim(const std::string &str) {
-	string s(str);
+//std::string ltrim(const std::string &str) {
+//	string s(str);
+//
+//	s.erase(
+//		s.begin(),
+//		find_if(s.begin(), s.end(), not1(std::ptr_fun<int, int>(isspace)))
+//	);
+//
+//	return s;
+//}
+//
+//std::string rtrim(const std::string &str) {
+//	string s(str);
+//
+//	s.erase(
+//		find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
+//		s.end()
+//	);
+//
+//	return s;
+//}
 
-	s.erase(
-		s.begin(),
-		find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace)))
-	);
+namespace hrx {
+	const char* ws = " \t\n\r\f\v";
 
-	return s;
-}
-
-std::string rtrim(const std::string &str) {
-	string s(str);
-
-	s.erase(
-		find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
-		s.end()
-	);
-
-	return s;
-}
-
-std::vector<string> split(const std::string &str) {
-	vector<string> tokens;
-
-	string::size_type start = 0;
-	string::size_type end = 0;
-
-	while ((end = str.find(" ", start)) != string::npos) {
-		tokens.push_back(str.substr(start, end - start));
-
-		start = end + 1;
+	// trim from end of string (right)
+	inline std::string& rtrim(std::string& s, const char* t = ws)
+	{
+		s.erase(s.find_last_not_of(t) + 1);
+		return s;
 	}
 
-	tokens.push_back(str.substr(start));
+	// trim from beginning of string (left)
+	inline std::string& ltrim(std::string& s, const char* t = ws)
+	{
+		s.erase(0, s.find_first_not_of(t));
+		return s;
+	}
 
-	return tokens;
+	// trim from both ends of string (right then left)
+	inline std::string& trim(std::string& s, const char* t = ws)
+	{
+		return ltrim(rtrim(s, t), t);
+	}
+
+	std::vector<string> split(const std::string& str) {
+		vector<string> tokens;
+
+		string::size_type start = 0;
+		string::size_type end = 0;
+
+		while ((end = str.find(" ", start)) != string::npos) {
+			tokens.push_back(str.substr(start, end - start));
+
+			start = end + 1;
+		}
+
+		tokens.push_back(str.substr(start));
+
+		return tokens;
+	}
 }
-
 
 vector<string> tokenize(std::string const &line, char delim)
 {
